@@ -1,5 +1,10 @@
 {
   "accentColor": "#2d99b4",
-  "cssTheme": "",
-  "theme": "obsidian"
+  "cssTheme": "Minimal",
+  "theme": "obsidian",
+  "baseFontSize": 16,
+  "nativeMenus": true,
+  "enabledCssSnippets": [
+    "couner-headings"
+  ]
 }

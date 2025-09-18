@@ -1,46 +1,25 @@
 {
   "main": {
-    "id": "ff2b7cc21df46fa4",
+    "id": "25d30bc4ff6bfe04",
     "type": "split",
     "children": [
       {
-        "id": "32d33021cd58b295",
+        "id": "310f308231c4361a",
         "type": "tabs",
         "children": [
           {
-            "id": "b8f298203cdcf526",
+            "id": "feb1f03ffbb9e79b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "回归/一元线性回归/4.误差随机变量方差的估计.md",
-=======
-                "file": "回归/线性回归模型/最小二乘估计OLSE.md",
->>>>>>> deeb061 (regular commit)
+                "file": "回归/一元线性回归/1.基本假设.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "4.误差随机变量方差的估计"
-            }
-          },
-          {
-            "id": "879ecfe7cebcf5ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "回归/一元线性回归/4.误差随机变量方差的估计.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4.误差随机变量方差的估计"
-=======
-              "title": "最小二乘估计OLSE"
->>>>>>> deeb061 (regular commit)
+              "title": "1.基本假设"
             }
           }
         ]
@@ -49,15 +28,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "204483b1bae7bd1c",
+    "id": "82e793d9a468c1c4",
     "type": "split",
     "children": [
       {
-        "id": "83ef877c7d19196f",
+        "id": "8e49964644bc9c54",
         "type": "tabs",
         "children": [
           {
-            "id": "032ff4da9c49983b",
+            "id": "67fbcfb70f802a3a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -66,11 +45,11 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
-            "id": "00286008c3ffbfbe",
+            "id": "b2cb7f6b54562c8a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -87,7 +66,7 @@
             }
           },
           {
-            "id": "7fef65a380410da4",
+            "id": "b649ca6da77b6976",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -103,19 +82,20 @@
     "width": 300
   },
   "right": {
-    "id": "aa1f2c0418344cfb",
+    "id": "646c15358cd28e0f",
     "type": "split",
     "children": [
       {
-        "id": "b011f5f8bffac8dc",
+        "id": "cbe12e3f0de6ecb0",
         "type": "tabs",
         "children": [
           {
-            "id": "f5edeb30e9d1898b",
+            "id": "3dfe4d6772b90afb",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "回归/一元线性回归/5.显著性检验.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,25 +105,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "5.显著性检验 的反向链接列表"
             }
           },
           {
-            "id": "c052a4e85cdb2cbc",
+            "id": "75426c4c7292959c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "回归/线性回归模型/最小二乘估计.md",
+                "file": "回归/一元线性回归/5.显著性检验.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "最小二乘估计 的出链列表"
+              "title": "5.显著性检验 的出链列表"
             }
           },
           {
-            "id": "aab1d2b86fff7c9a",
+            "id": "6be8e1175bc115b5",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -158,68 +138,49 @@
             }
           },
           {
-            "id": "ac534d8cf6a17196",
+            "id": "7673651f61cade90",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "回归/线性回归模型/最小二乘估计.md",
+                "file": "回归/一元线性回归/5.显著性检验.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "最小二乘估计 的大纲"
-            }
-          },
-          {
-            "id": "420f4be9a8cec8e2",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "5.显著性检验 的大纲"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:创建新数据库": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b8f298203cdcf526",
+  "active": "feb1f03ffbb9e79b",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "回归/一元线性回归/5.显著性检验.md",
-    "回归/一元线性回归/4.误差随机变量方差的估计.md",
-    "回归/一元线性回归/3.回归系数的性质.md",
-    "回归/一元线性回归/2.最小二乘估计.md",
+    "export.sh",
+    "export.md",
     "回归/一元线性回归/1.基本假设.md",
-=======
-    "回归/线性回归模型/最小二乘估计OLSE.md",
-    "回归/线性回归模型/基本假设.md",
->>>>>>> deeb061 (regular commit)
-    "回归/回归模型.md",
-    "回归/一元线性回归",
-    "概率论与数理统计基础/常用分布.md",
-    "回归",
-    "未命名.md",
-    "概率论与数理统计基础/方差、协方差的性质.md",
-    "概率论与数理统计基础",
-    "未命名.canvas"
+    "回归/一元线性回归/2.最小二乘估计OLSE.md",
+    "回归/一元线性回归/3.回归系数的性质.md",
+    "回归/一元线性回归/6.残差分析.md",
+    "回归/一元线性回归/5.显著性检验.md",
+    "回归/一元线性回归/2.最小二乘估计.md",
+    "回归/一元线性回归/4.误差随机变量方差的估计.md"
   ]
 }

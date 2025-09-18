@@ -1,0 +1,126 @@
+/* ========= 全部标题加粗（含编辑/阅读视图） ========= */
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6,
+.markdown-reading-view h1,
+.markdown-reading-view h2,
+.markdown-reading-view h3,
+.markdown-reading-view h4,
+.markdown-reading-view h5,
+.markdown-reading-view h6 { font-weight: 700 !important; }
+
+.markdown-source-view.mod-cm6 .cm-line .cm-header { font-weight: 700 !important; }
+
+/* ========= 阅读/预览模式：把 h2 当作顶级（1、1.1、1.1.1…） ========= */
+/* 不给 h1 编号；从 h2 开始 */
+.markdown-reading-view,
+.markdown-preview-view { counter-reset: h2-level; } /* 全文初始化 h2 计数器为 0 */
+
+.markdown-reading-view h2,
+.markdown-preview-view h2 { counter-reset: h3-level; } /* 每遇到新 h2，重置 h3 级以下 */
+.markdown-reading-view h3,
+.markdown-preview-view h3 { counter-reset: h4-level; }
+.markdown-reading-view h4,
+.markdown-preview-view h4 { counter-reset: h5-level; }
+.markdown-reading-view h5,
+.markdown-preview-view h5 { counter-reset: h6-level; }
+
+/* h2 顶级：1, 2, 3, ... */
+.markdown-reading-view h2::before,
+.markdown-preview-view h2::before {
+  counter-increment: h2-level;              /* 先自增，首个即为 1 */
+  content: counter(h2-level) ". ";
+}
+
+/* h3：1.1, 1.2, ... */
+.markdown-reading-view h3::before,
+.markdown-preview-view h3::before {
+  counter-increment: h3-level;
+  content: counter(h2-level) "." counter(h3-level) " ";
+}
+
+/* h4：1.1.1, ... */
+.markdown-reading-view h4::before,
+.markdown-preview-view h4::before {
+  counter-increment: h4-level;
+  content: counter(h2-level) "." counter(h3-level) "." counter(h4-level) " ";
+}
+
+/* h5：1.1.1.1, ... */
+.markdown-reading-view h5::before,
+.markdown-preview-view h5::before {
+  counter-increment: h5-level;
+  content: counter(h2-level) "." counter(h3-level) "." counter(h4-level) "." counter(h5-level) " ";
+}
+
+/* h6：1.1.1.1.1, ... */
+.markdown-reading-view h6::before,
+.markdown-preview-view h6::before {
+  counter-increment: h6-level;
+  content: counter(h2-level) "." counter(h3-level) "." counter(h4-level) "." counter(h5-level) "." counter(h6-level) " ";
+}
+
+/* ========= 编辑模式（CM6 / Live Preview）：从 h2 开始编号 ========= */
+/* 说明：编辑区标题 token 的类是 .cm-header-X。我们以 h2 为顶级（eh2）。*/
+.markdown-source-view.mod-cm6 .cm-scroller { counter-reset: eh2; }
+.markdown-source-view.mod-cm6 .cm-header-2 { counter-reset: eh3; }
+.markdown-source-view.mod-cm6 .cm-header-3 { counter-reset: eh4; }
+.markdown-source-view.mod-cm6 .cm-header-4 { counter-reset: eh5; }
+.markdown-source-view.mod-cm6 .cm-header-5 { counter-reset: eh6; }
+
+/* h2 顶级：1, 2, 3, ... */
+.markdown-source-view.mod-cm6 .cm-header-2::before {
+  counter-increment: eh2;
+  content: counter(eh2) ". ";
+}
+
+/* h3：1.1, 1.2, ... */
+.markdown-source-view.mod-cm6 .cm-header-3::before {
+  counter-increment: eh3;
+  content: counter(eh2) "." counter(eh3) " ";
+}
+
+/* h4：1.1.1, ... */
+.markdown-source-view.mod-cm6 .cm-header-4::before {
+  counter-increment: eh4;
+  content: counter(eh2) "." counter(eh3) "." counter(eh4) " ";
+}
+
+/* h5：1.1.1.1, ... */
+.markdown-source-view.mod-cm6 .cm-header-5::before {
+  counter-increment: eh5;
+  content: counter(eh2) "." counter(eh3) "." counter(eh4) "." counter(eh5) " ";
+}
+
+/* h6：1.1.1.1.1, ... */
+.markdown-source-view.mod-cm6 .cm-header-6::before {
+  counter-increment: eh6;
+  content: counter(eh2) "." counter(eh3) "." counter(eh4) "." counter(eh5) "." counter(eh6) " ";
+}
+
+/* ========= （可选）编号对齐更整齐 ========= */
+/* 让编号占固定宽度，层级对齐（按需启用） */
+/*
+.markdown-reading-view h2::before,
+.markdown-preview-view h2::before,
+.markdown-reading-view h3::before,
+.markdown-preview-view h3::before,
+.markdown-reading-view h4::before,
+.markdown-preview-view h4::before,
+.markdown-reading-view h5::before,
+.markdown-preview-view h5::before,
+.markdown-reading-view h6::before,
+.markdown-preview-view h6::before,
+.markdown-source-view.mod-cm6 .cm-header-2::before,
+.markdown-source-view.mod-cm6 .cm-header-3::before,
+.markdown-source-view.mod-cm6 .cm-header-4::before,
+.markdown-source-view.mod-cm6 .cm-header-5::before,
+.markdown-source-view.mod-cm6 .cm-header-6::before {
+  display: inline-block;
+  min-width: 3.8ch;       /* 视你的最大编号长度微调 */
+  text-align: right;
+}
+*/
