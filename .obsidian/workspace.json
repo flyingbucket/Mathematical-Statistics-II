@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "回归/一元线性回归/1.基本假设.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "1.基本假设"
+              "title": "index"
             }
           }
         ]
@@ -173,11 +173,13 @@
   },
   "active": "feb1f03ffbb9e79b",
   "lastOpenFiles": [
+    "回归/一元线性回归/3.回归系数的性质.md",
+    "回归/一元线性回归/2.最小二乘估计OLSE.md",
+    "回归/一元线性回归/1.基本假设.md",
+    "index.md",
+    "book.tmp.tex",
     "export.sh",
     "export.md",
-    "回归/一元线性回归/1.基本假设.md",
-    "回归/一元线性回归/2.最小二乘估计OLSE.md",
-    "回归/一元线性回归/3.回归系数的性质.md",
     "回归/一元线性回归/6.残差分析.md",
     "回归/一元线性回归/5.显著性检验.md",
     "回归/一元线性回归/2.最小二乘估计.md",
