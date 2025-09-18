@@ -13,11 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "回归/一元线性回归/4.误差随机变量方差的估计.md",
+=======
+                "file": "回归/线性回归模型/最小二乘估计OLSE.md",
+>>>>>>> deeb061 (regular commit)
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "4.误差随机变量方差的估计"
             }
           },
@@ -33,6 +38,9 @@
               },
               "icon": "lucide-file",
               "title": "4.误差随机变量方差的估计"
+=======
+              "title": "最小二乘估计OLSE"
+>>>>>>> deeb061 (regular commit)
             }
           }
         ]
@@ -195,11 +203,16 @@
   },
   "active": "b8f298203cdcf526",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "回归/一元线性回归/5.显著性检验.md",
     "回归/一元线性回归/4.误差随机变量方差的估计.md",
     "回归/一元线性回归/3.回归系数的性质.md",
     "回归/一元线性回归/2.最小二乘估计.md",
     "回归/一元线性回归/1.基本假设.md",
+=======
+    "回归/线性回归模型/最小二乘估计OLSE.md",
+    "回归/线性回归模型/基本假设.md",
+>>>>>>> deeb061 (regular commit)
     "回归/回归模型.md",
     "回归/一元线性回归",
     "概率论与数理统计基础/常用分布.md",
