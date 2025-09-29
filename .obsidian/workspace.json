@@ -1,25 +1,38 @@
 {
   "main": {
-    "id": "25d30bc4ff6bfe04",
+    "id": "ff2b7cc21df46fa4",
     "type": "split",
     "children": [
       {
-        "id": "310f308231c4361a",
+        "id": "32d33021cd58b295",
         "type": "tabs",
         "children": [
           {
-            "id": "feb1f03ffbb9e79b",
+            "id": "b8f298203cdcf526",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "回归/一元线性回归/6.残差分析.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "回归/一元线性回归/5.显著性检验.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "6.残差分析"
+              "title": "5.显著性检验"
+            }
+          },
+          {
+            "id": "879ecfe7cebcf5ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "回归/一元线性回归/4.误差随机变量方差的估计.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4.误差随机变量方差的估计"
             }
           }
         ]
@@ -28,15 +41,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "82e793d9a468c1c4",
+    "id": "204483b1bae7bd1c",
     "type": "split",
     "children": [
       {
-        "id": "8e49964644bc9c54",
+        "id": "83ef877c7d19196f",
         "type": "tabs",
         "children": [
           {
-            "id": "67fbcfb70f802a3a",
+            "id": "032ff4da9c49983b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -45,11 +58,11 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "title": "Files"
             }
           },
           {
-            "id": "b2cb7f6b54562c8a",
+            "id": "00286008c3ffbfbe",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -66,7 +79,7 @@
             }
           },
           {
-            "id": "b649ca6da77b6976",
+            "id": "7fef65a380410da4",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -82,20 +95,19 @@
     "width": 300
   },
   "right": {
-    "id": "646c15358cd28e0f",
+    "id": "aa1f2c0418344cfb",
     "type": "split",
     "children": [
       {
-        "id": "cbe12e3f0de6ecb0",
+        "id": "b011f5f8bffac8dc",
         "type": "tabs",
         "children": [
           {
-            "id": "3dfe4d6772b90afb",
+            "id": "f5edeb30e9d1898b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "回归/一元线性回归/6.残差分析.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,25 +117,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "6.残差分析 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
-            "id": "75426c4c7292959c",
+            "id": "c052a4e85cdb2cbc",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "回归/一元线性回归/5.显著性检验.md",
+                "file": "回归/线性回归模型/最小二乘估计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "5.显著性检验 的出链列表"
+              "title": "最小二乘估计 的出链列表"
             }
           },
           {
-            "id": "6be8e1175bc115b5",
+            "id": "aab1d2b86fff7c9a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -138,22 +150,22 @@
             }
           },
           {
-            "id": "7673651f61cade90",
+            "id": "ac534d8cf6a17196",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "回归/一元线性回归/5.显著性检验.md",
+                "file": "回归/线性回归模型/最小二乘估计.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "5.显著性检验 的大纲"
+              "title": "最小二乘估计 的大纲"
             }
           },
           {
-            "id": "a2ea4357fe22458b",
+            "id": "420f4be9a8cec8e2",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -171,30 +183,33 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a2ea4357fe22458b",
+  "active": "b8f298203cdcf526",
   "lastOpenFiles": [
-    "回归/一元线性回归/未命名.md",
-    "回归/多元线性回归",
-    "回归/一元线性回归/6.残差分析.md",
-    "回归/一元线性回归/2.最小二乘估计OLSE.md",
-    "index.md",
+    "回归/一元线性回归/4.误差随机变量方差的估计.md",
     "回归/一元线性回归/3.回归系数的性质.md",
+    "回归/一元线性回归/2.最小二乘估计OLSE.md",
     "回归/一元线性回归/1.基本假设.md",
-    "book.tmp.tex",
-    "export.sh",
-    "export.md",
+    "index.md",
+    "回归/一元线性回归/6.残差分析.md",
     "回归/一元线性回归/5.显著性检验.md",
     "回归/一元线性回归/2.最小二乘估计.md",
-    "回归/一元线性回归/4.误差随机变量方差的估计.md"
+    "回归/回归模型.md",
+    "回归/一元线性回归",
+    "概率论与数理统计基础/常用分布.md",
+    "回归",
+    "未命名.md",
+    "概率论与数理统计基础/方差、协方差的性质.md",
+    "概率论与数理统计基础",
+    "未命名.canvas"
   ]
 }
